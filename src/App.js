@@ -45,7 +45,7 @@ function App() {
       <br />
       <button onClick={toggleModal}>Show Modal</button>
       {showModal && (
-        <Modal toggleModal={toggleModal} btnText="Close">
+        <Modal toggleModal={toggleModal} btnText="Close" isSalesModal={true}>
           <h2>10% Off Couppon Code!!</h2>
           <p>Use the code NINJA10 at the checkout.</p>
         </Modal>
