@@ -18,12 +18,6 @@ export default function Modal({
         }}
       >
         {children}
-        <button
-          onClick={toggleModal}
-          className={isSalesModal ? "sales-btn" : ""}
-        >
-          {btnText}
-        </button>
       </div>
     </div>,
     document.body
